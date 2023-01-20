@@ -189,7 +189,10 @@ header {
   }
 
   .fact-items {
-    flex-direction: column;
+    /* flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
   }
   .fact-items div {
     margin-bottom: 5px;
