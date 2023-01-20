@@ -183,6 +183,9 @@ header {
   .feature-images {
     grid-template-columns: repeat(2, 1fr);
   }
+  .fact-heading {
+    text-align: center;
+  }
 
   .feature-enjoy {
     flex-direction: column;
@@ -196,6 +199,7 @@ header {
   }
   .fact-items div {
     margin-bottom: 5px;
+    border-radius: 10px;
   }
 
   .sponsor-items,
